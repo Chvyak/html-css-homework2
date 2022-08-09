@@ -29,6 +29,8 @@ body{
 .button{
     position: relative;
     top: 40vh;
+    transition-property: background-color color;
+    transition-duration: 0.3s, 1s;
 }
 .button:hover{
     background-color: #926239;
